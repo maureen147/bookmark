@@ -199,6 +199,7 @@
 
 }
 
+
 .footer-section{
     background-color: var(--Soft-Blue);
     width: 100%;
@@ -217,6 +218,7 @@
 }
 .form-control{
     display: flex;
+    width: 50%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -230,16 +232,24 @@
     width:100%;
 
 }
+
 .down-part2{
-    display: flex;
-     background-color: var(--Very-Dark-Blue);
-    color: white;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
    
-}
+    padding: 15px 0px;
+     background-color: var(--Very-Dark-Blue); 
+    color: white;
+  
+   }
+   
+   .feature{
+    width: 40%;
+    color: var(--Grayish-Blue);
+
+   }
+   .div-2{
+    width: 65%;
+   }
+   
 .accordion{
     width:40%;
 }
@@ -264,6 +274,7 @@
     .bookmark-img img{
         width: 100%;
     }
+ 
     .blue-div{
         width: 50%;
         height: 30vh;
@@ -307,11 +318,13 @@
         padding: 30px;
         margin-top: 5rem;
     }
+    .accordion{
+        width:100%;
     
-    
-    
-    
-    
-    
-    
+}
+.div-2{
+    width: 100%;
+    height: 100px;
+   }
+
 }
